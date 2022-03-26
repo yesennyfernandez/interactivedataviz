@@ -39,5 +39,3 @@ myData = [
   .attr("x", d=> myXScale(d.activity))
   .attr("y", d=> myYScale(d.count))
   
-  const colorScale = d3.scaleOrdinal()
-  .range(["blue","yellow","green", "orange", "red"])
