@@ -33,14 +33,7 @@ myData = [
   mySvg.selectAll("rect")
   .data(myData)
   .join("rect")
-
-  // bars
-  svg.selectAll("rect")
-    .data(data)
-    .join("rect")
-    .attr("width", xScale.bandwidth())
-    .attr("height", d=> height - yScale(d.count))
-    .attr("x", d=>xScale(d.activity))
-    .attr("y", d=> yScale(d.count))
-
-})
+  .attr("width", xScale.bandwidth())
+  .attr("height", d=> 1500 - yScale(d.count))
+  .attr("x", d=> xScale(d.activity))
+  .attr("y", d=> yScale(d.count))
