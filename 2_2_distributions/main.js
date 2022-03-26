@@ -16,7 +16,7 @@ d3.json("[PATH_TO_YOUR_DATA]", d3.autoType)
     const yScale = d3.scaleLinear()
     .domain([0,d3.max(data, d => d.ideologyScore2020)])
     .range[([height-margin, margin])
-
+    
     const colorScale = d3.scaleOrdinal()
     .domain(["R", "D", "I"])
     .range(["red", "blue", "purple"])
@@ -40,12 +40,19 @@ d3.json("[PATH_TO_YOUR_DATA]", d3.autoType)
 
 
     /* JOIN - SELECT-DATA-JOIN & DRAW */
+    
     svg.selectAll("circle")
     .data(data)
-    .join('circle')
+    .join()
+    enter => enter
+    .append("circle")
+    .attr("r", 1)
     .attr("cx", d => xScale(d.envScore2020))
     .attr("cy", d => yScale(d.ideologyScore2020))
-    .attr("r", 3)
-    .attr("fill", d=> colorScale(d.Party))
-
+    .attr("fill", "black")
+        .transition()
+        .duration(2000) //in ms
+        .delay(200)
+            .attr("r", 20)
+            .attr("fill", d=> colorScale(d.Party))
   });

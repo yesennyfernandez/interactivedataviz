@@ -38,7 +38,6 @@ d3.csv('../data/populationOverTime.csv', d => {
   const lineGen = d3.line()
 .x(d => xScale(d.year))
 .y(d => yScale(d.Population))
-
   // DRAW LINE
 svg.selectAll("path.line")
 .data([data])
@@ -46,6 +45,5 @@ svg.selectAll("path.line")
 .attr("class", "Line")
 .attr("stroke", "blue")
 .attr("fill", "none")
-.attr("d" d => lineGen(d))
-
+.attr("d", d => lineGen(d))
 });
