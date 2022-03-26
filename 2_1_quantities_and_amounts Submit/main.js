@@ -12,12 +12,12 @@ myData = [
 ]
   /* SCALES */
   // xscale - categorical, activity
-  const xScale = d3.scaleBand()
+  const myXScale = d3.scaleBand()
     .domain(["running", "chasing", "climbing", "eating", "foraging"])
     .range([0, 500]) // visual variable
 
     // yscale - linear,count
-  const yScale = d3.scaleLinear()
+  const myYScale = d3.scaleLinear()
     .domain([0, 1500])
     .range([1500, 0])
 
@@ -33,7 +33,7 @@ myData = [
   mySvg.selectAll("rect")
   .data(myData)
   .join("rect")
-  .attr("width", xScale.bandwidth())
+  .attr("width", myXScale.bandwidth())
   .attr("height", d=> 1500 - yScale(d.count))
-  .attr("x", d=> xScale(d.activity))
-  .attr("y", d=> yScale(d.count))
+  .attr("x", d=> myXScale(d.activity))
+  .attr("y", d=> myYScale(d.count))
