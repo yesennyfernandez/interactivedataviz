@@ -38,9 +38,12 @@ myData = [
   .attr("height", d=> 1500 - myYScale(d.count))
   .attr("x", d=> myXScale(d.activity))
   .attr("y", d=> myYScale(d.count))
+
   .attr("fill", d => colorScale(d.activity))
   .attr("opacity",.60)
   
-
-  const colorScale = d3.scaleOrdinal()
-  .range(["blue","yellow","green", "orange", "red"])
+const squirrelActivities = squirrelData.map((d) => d.activity);
+  const color = d3
+    .scaleOrdinal()
+    .domain(squirrelActivities)
+    .range(d3.schemeCategory10);
