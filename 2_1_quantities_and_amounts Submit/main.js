@@ -1,3 +1,7 @@
+/* CONSTANTS*/
+const width = window.innerWidth * .60;
+const height = window.innerHeight * .60;
+
 /* LOAD DATA */
 myData = [
 {activity: "running", count: 730},
