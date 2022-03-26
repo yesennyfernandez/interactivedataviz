@@ -38,4 +38,9 @@ myData = [
   .attr("height", d=> 1500 - myYScale(d.count))
   .attr("x", d=> myXScale(d.activity))
   .attr("y", d=> myYScale(d.count))
+  .attr("fill", d => colorScale(d.activity))
+  .attr("opacity",.60)
   
+
+  const colorScale = d3.scaleOrdinal()
+  .range(["blue","yellow","green", "orange", "red"])
