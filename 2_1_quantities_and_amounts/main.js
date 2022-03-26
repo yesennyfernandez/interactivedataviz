@@ -18,11 +18,6 @@ d3.csv('../data/squirrelActivities.csv', d3.autoType)
   const yScale = d3.scaleLinear()
     .domain([0, d3.max(data, d=> d.count)])
     .range([height, 0])
-    .paddingInner(.3)
-
-const colorScale = d3.scaleOrdinal()
-    .domain(["foraging", "eating", "climbing", "chasing", "running"])
-    .range(["red", "orange", "brown", "blue", "pink"])
 
   /* HTML ELEMENTS */
   // svg
