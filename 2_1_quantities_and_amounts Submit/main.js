@@ -1,6 +1,6 @@
 /* CONSTANTS*/
-const width = window.innerWidth * .60;
-const height = window.innerHeight * .60;
+const width = window.innerWidth * .12;
+const height = window.innerHeight * .12;
 
 /*DATA */
 myData = [
@@ -15,6 +15,7 @@ myData = [
   const myXScale = d3.scaleBand()
     .domain(["running", "chasing", "climbing", "eating", "foraging"])
     .range([0, 500]) // visual variable
+    .paddingInner(.1);
 
     // yscale - linear,count
   const myYScale = d3.scaleLinear()
@@ -39,5 +40,4 @@ myData = [
   .attr("y", d=> myYScale(d.count))
   
   const colorScale = d3.scaleOrdinal()
-  .domain(["foraging","eating","climbing", "chasing", "running"])
   .range(["blue","yellow","green", "orange", "red"])
