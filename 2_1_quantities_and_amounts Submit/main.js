@@ -1,7 +1,3 @@
-/* CONSTANTS AND GLOBALS */
-const width = window.innerWidth *.8 ;
-const height = 500;
-
 /* LOAD DATA */
 myData = [
 {activity: "running", count: 730},
