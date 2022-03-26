@@ -25,11 +25,11 @@ myData = [
   .attr("height", 1500)
 
   //SELECT-DATA JOIN-DRAW - JOIN DATA TO SVG TO GENERATE GRAPHICS
-
+//ADD ATTRIBUTES SO GRAPHICS ARE VISIBLE
   mySvg.selectAll("rect")
   .data(myData)
   .join("rect")
   .attr("width", myXScale.bandwidth())
-  .attr("height", d=> 1500 - yScale(d.count))
+  .attr("height", d=> 1500 - myYScale(d.count))
   .attr("x", d=> myXScale(d.activity))
   .attr("y", d=> myYScale(d.count))
