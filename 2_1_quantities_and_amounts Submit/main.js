@@ -37,4 +37,7 @@ myData = [
   .attr("height", d=> 1500 - myYScale(d.count))
   .attr("x", d=> myXScale(d.activity))
   .attr("y", d=> myYScale(d.count))
-  .attr("fill", "#42f587")
+  
+  const colorScale = d3.scaleOrdinal()
+  .domain(["foraging","eating","climbing", "chasing", "running"])
+  .range(["blue","yellow","green", "orange", "red"])
