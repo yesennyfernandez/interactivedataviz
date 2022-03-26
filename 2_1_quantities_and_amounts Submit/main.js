@@ -2,7 +2,7 @@
 const width = window.innerWidth * .60;
 const height = window.innerHeight * .60;
 
-/* LOAD DATA */
+/*DATA */
 myData = [
 {activity: "running", count: 730},
 {activity: "chasing", count: 279},
@@ -37,3 +37,4 @@ myData = [
   .attr("height", d=> 1500 - myYScale(d.count))
   .attr("x", d=> myXScale(d.activity))
   .attr("y", d=> myYScale(d.count))
+  .attr("fill", "#42f587")
