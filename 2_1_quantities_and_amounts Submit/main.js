@@ -19,7 +19,7 @@ myData = [
 
   /* HTML ELEMENTS */
   // svg
-  const Svg = d3.select("#barchart")
+  const mySvg = d3.select("#barchart")
   .append("svg")
   .attr("width", 500)
   .attr("height", 1500)
