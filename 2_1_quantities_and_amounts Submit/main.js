@@ -3,32 +3,36 @@ const width = window.innerWidth *.8 ;
 const height = 500;
 
 /* LOAD DATA */
-d3.csv('../data/squirrelActivities.csv', d3.autoType)
-.then(data => {
-  console.log("data", data)
-
+myData = [
+{activity: "running", count: 730},
+{activity: "chasing", count: 279},
+{activity: "climbing", count: 658},
+{activity: "eating", count: 760},
+{activity: "foreaging", count: 1435},
+]
   /* SCALES */
   // xscale - categorical, activity
   const xScale = d3.scaleBand()
-    .domain(data.map(d=> d.activity))
-    .range([0, width]) // visual variable
+    .domain(["running", "chasing", "climbing", "eating", "foraging"])
+    .range([0, 500]) // visual variable
 
     // yscale - linear,count
   const yScale = d3.scaleLinear()
-    .domain([0, d3.max(data, d=> d.count)])
-    .range([height, 0])
-    .paddingInner(.3)
-
-const colorScale = d3.scaleOrdinal()
-    .domain(["foraging", "eating", "climbing", "chasing", "running"])
-    .range(["red", "orange", "brown", "blue", "pink"])
+    .domain([0, 1500])
+    .range([1500, 0])
 
   /* HTML ELEMENTS */
   // svg
-  const svg = d3.select("#container")
-    .append("svg")
-    .attr("width", width)
-    .attr("height", height)
+  const svg = d3.select("#barchart")
+  .append("svg")
+  .attr("width", 500)
+  .attr("height", 1500)
+
+  //SELECT-DATA JOIN-DRAW - JOIN DATA TO SVG TO GENERATE GRAPHICS
+
+  mySvg.selectAll("rect")
+  .data(myData)
+  .join("rect")
 
   // bars
   svg.selectAll("rect")
