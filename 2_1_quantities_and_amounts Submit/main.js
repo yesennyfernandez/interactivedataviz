@@ -12,11 +12,10 @@ myData = [
 ]
   /* SCALES */
   // xscale - categorical, activity
-  const myXScale = d3.scaleBand()
-    .domain(["running", "chasing", "climbing", "eating", "foraging"])
-    .range(["blue","yellow","green", "orange", "red"])
-    //.range([0, 500]) // visual variable
-    //.paddingInner(.1);
+const myXScale = d3.scaleBand()
+.domain(["foraging","eating","climbing", "chasing", "running"])
+    .range([0, 500]) // visual variable
+    .paddingInner(.1);
 
     // yscale - linear,count
   const myYScale = d3.scaleLinear()
@@ -39,6 +38,4 @@ myData = [
   .attr("height", d=> 1500 - myYScale(d.count))
   .attr("x", d=> myXScale(d.activity))
   .attr("y", d=> myYScale(d.count))
-
-  //.attr("fill", d => colorScale(d.activity))
-  //.attr("opacity",.60)
+  .attr("fill", "#42f587")
