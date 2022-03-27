@@ -35,4 +35,14 @@ d3.csv('../data/squirrelActivities.csv', d3.autoType)
     .attr("x", d=>xScale(d.activity))
     .attr("y", d=> yScale(d.count))
     .attr("fill", "#000080")
+
+    svg.append("g")
+    .attr("transform", `translate(${margin.left - 0.5},0)`)
+    .call(yAxis)
+      .selectAll("text")  
+      .style("text-anchor", "end")
+      .attr("dx", "-.8em")
+      .attr("dy", ".15em")
+      .attr("transform", "rotate(-20)");
+
 })
