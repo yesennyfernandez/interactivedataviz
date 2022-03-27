@@ -16,7 +16,7 @@ myData = [
     .domain(["running", "chasing", "climbing", "eating", "foraging"])
     .range(["blue","yellow","green", "orange", "red"])
     //.range([0, 500]) // visual variable
-    .paddingInner(.1);
+    //.paddingInner(.1);
 
     // yscale - linear,count
   const myYScale = d3.scaleLinear()
@@ -40,5 +40,5 @@ myData = [
   .attr("x", d=> myXScale(d.activity))
   .attr("y", d=> myYScale(d.count))
 
-  .attr("fill", d => colorScale(d.activity))
-  .attr("opacity",.60)
+  //.attr("fill", d => colorScale(d.activity))
+  //.attr("opacity",.60)
