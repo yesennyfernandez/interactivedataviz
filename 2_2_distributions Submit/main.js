@@ -7,14 +7,14 @@ radius = 3
 
 //DATA
 
-d3.json("dv-complaint-radio-run-2021 (Int_Data_Viz).csv", d3.autoType)
+d3.json("dv-complaint-radio-run-2021 (Int_Data_Viz).json", d3.autoType)
 .then(data => {
 console.log(data)
 
 // SCALES
 
 const xScale = d3.scaleLinear()
-.domain([0, d3.max(data, d => d.cocoaPercent)])
+.domain([0, d3.max(data, d => d.DomesticViolencePercent)])
 .range([margin.left, width - margin.right])
 
 const yScale = d3.scaleLinear()
@@ -22,8 +22,8 @@ const yScale = d3.scaleLinear()
 .range([height - margin.bottom, margin.top])
 
 const colorScale = d3.scaleOrdinal()
-.domain(["U.S.A.", "Canada"])
-.range(["red", "blue"])
+.domain(["Rape Complaints", "Felony Assault Complaints", "Murder Complaints"])
+.range(["red", "blue", "orange"])
 
 // ELEMENTS
 
@@ -49,7 +49,7 @@ mySVG.selectAll("circle")
 .data(data)
 .join("circle")
 // ATTRIBUTES
-.attr("cx", d => xScale(d.cocoaPercent))
+.attr("cx", d => xScale(d.DomesticViolencePercent))
 .attr("cy", d => yScale(d.Rating))
 .attr("r", radius)
 .attr("fill", d => colorScale(d.Location))
