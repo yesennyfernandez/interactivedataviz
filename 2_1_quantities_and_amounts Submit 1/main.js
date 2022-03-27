@@ -1,6 +1,11 @@
-/* CONSTANTS AND GLOBALS */
-const width = window.innerWidth *.8 ;
-const height = 500;
+//const margin = {top: 20, right: 30, bottom: 40, left: 90},
+   // width = 800 - margin.left - margin.right,
+  //  height = window.innerHeight*0.8 - margin.top - margin.bottom;
+
+  const width = window.innerWidth * 0.5;
+  const height = window.innerHeight * 0.7;
+  const margin = {top: 40, bottom: 80, left: 80, right: 120};
+
 
 /* LOAD DATA */
 var svg = d3.select("#container")
@@ -47,7 +52,7 @@ d3.csv('../data/squirrelActivities.csv', d3.autoType)
       .attr("y", function(d) { return yScale(d.activity); })
       .attr("width", function(d) { return xScale(d.count); }) //)
       .attr("height",  yScale.bandwidth() ) // d=> height - yScale(d.count))
-      .attr("fill", "#69b3a2")
+      .attr("fill", "#000080")
       //.attr("x", d=>xScale(d.activity))
       //.attr("y", d=>yScale(d.count))
     /** Select your container and append the visual elements to it */
