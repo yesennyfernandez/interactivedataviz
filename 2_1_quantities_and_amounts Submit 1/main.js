@@ -1,32 +1,24 @@
-//const margin = {top: 20, right: 30, bottom: 40, left: 90},
-   // width = 800 - margin.left - margin.right,
-  //  height = window.innerHeight*0.8 - margin.top - margin.bottom;
-
   const width = window.innerWidth * 0.5;
   const height = window.innerHeight * 0.7;
   const margin = {top: 40, bottom: 80, left: 80, right: 120};
 
-
 /* LOAD DATA */
-var svg = d3.select("#container")
-.append("svg")
+  svg = d3.select("#container")
+  .append("svg")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
-.append("g")
-  .attr("transform",
-        "translate(" + margin.left + "," + margin.top + ")");
-
+  .append("g")
+  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 d3.csv('../data/squirrelActivities.csv', d3.autoType)
   .then(data => {
-    console.log("data", data)
+  console.log("data", data)
 
     /* SCALES */
     // xscale - categorical, activity
     const xScale = d3.scaleLinear()
-      .domain([0, d3.max(data, d=> d.count)])   //data.map(d=> d.activity))
-      .range([0, width]); //visual variable
-      //.ticks(14);
+      .domain([0, d3.max(data, d=> d.count)])
+      .range([0, width]);
     
     svg.append("g")
       .attr("transform", "translate(0, " + height + ")")
@@ -43,18 +35,13 @@ d3.csv('../data/squirrelActivities.csv', d3.autoType)
 
     svg.append("g")
       .call(d3.axisLeft(yScale))
-    
 
     svg.selectAll("rect")
       .data(data)
       .join("rect")
       .attr("x", xScale(0))
       .attr("y", function(d) { return yScale(d.activity); })
-      .attr("width", function(d) { return xScale(d.count); }) //)
-      .attr("height",  yScale.bandwidth() ) // d=> height - yScale(d.count))
+      .attr("width", function(d) { return xScale(d.count); })
+      .attr("height",  yScale.bandwidth() )
       .attr("fill", "#000080")
-      //.attr("x", d=>xScale(d.activity))
-      //.attr("y", d=>yScale(d.count))
-    /** Select your container and append the visual elements to it */
-
   })
