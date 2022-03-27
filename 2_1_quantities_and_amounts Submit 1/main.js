@@ -23,8 +23,10 @@ d3.csv('../data/squirrelActivities.csv', d3.autoType)
   // svg
   const svg = d3.select("#container")
     .append("svg")
-    .attr("width", width)
-    .attr("height", height)
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
   // bars
   svg.selectAll("rect")
