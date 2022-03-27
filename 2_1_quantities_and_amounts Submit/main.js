@@ -13,7 +13,6 @@ myData = [
   /* SCALES */
   // xscale - categorical, activity
   const myXScale = d3.scaleBand()
-  const colorScale = d3.scaleOrdinal()
     .domain(["running", "chasing", "climbing", "eating", "foraging"])
     .range(["blue","yellow","green", "orange", "red"])
     //.range([0, 500]) // visual variable
