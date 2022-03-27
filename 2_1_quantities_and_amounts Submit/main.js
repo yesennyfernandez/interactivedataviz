@@ -13,8 +13,10 @@ myData = [
   /* SCALES */
   // xscale - categorical, activity
   const myXScale = d3.scaleBand()
+  const colorScale = d3.scaleOrdinal()
     .domain(["running", "chasing", "climbing", "eating", "foraging"])
-    .range([0, 500]) // visual variable
+    .range(["blue","yellow","green", "orange", "red"])
+    //.range([0, 500]) // visual variable
     .paddingInner(.1);
 
     // yscale - linear,count
@@ -41,4 +43,3 @@ myData = [
 
   .attr("fill", d => colorScale(d.activity))
   .attr("opacity",.60)
-  .attr("fill", "#4169e1")
