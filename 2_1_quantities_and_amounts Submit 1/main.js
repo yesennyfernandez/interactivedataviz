@@ -9,15 +9,36 @@ d3.csv('../data/squirrelActivities.csv', d3.autoType)
 
   /* SCALES */
   // xscale - categorical, activity
-  const xScale = d3.scaleBand()
-    .domain(data.map(d=> d.activity))
-    .range([0, width]) // visual variable
-    .paddingInner(.2)
+ // const xScale = d3.scaleBand()
+    //.domain(data.map(d=> d.activity))
+   // .range([0, width]) // visual variable
+    //.paddingInner(.2)
+
+    const xScale = d3.scaleLinear()
+      .domain([0, d3.max(data, d=> d.count)])   //data.map(d=> d.activity))
+      .range([0, width]);
+
+      svg.append("g")
+      .attr("transform", "translate(0, " + height + ")")
+      .call(d3.axisBottom(xScale).ticks(14))
+      .selectAll("text")
+      .attr("transform", "translate(0,0)rotate(-45)")
+      .style("text-anchor", "end");
+
 
     // yscale - linear,count
-  const yScale = d3.scaleLinear()
-    .domain([0, d3.max(data, d=> d.count)])
-    .range([height, 0])
+    const yScale = d3.scaleBand()
+    .domain(data.map(d=> d.activity))
+    .range([0, height])
+    .paddingInner(0.1);
+    
+    svg.append("g")
+      .call(d3.axisLeft(yScale))  
+      
+
+  //  const yScale = d3.scaleLinear()
+    //.domain([0, d3.max(data, d=> d.count)])
+    //.range([height, 0])
 
   /* HTML ELEMENTS */
   // svg
@@ -26,6 +47,8 @@ d3.csv('../data/squirrelActivities.csv', d3.autoType)
     .attr("width", width)
     .attr("height", height)
 
+    svg.append("g")
+      .call(d3.axisLeft(yScale))
 
   // bars
   svg.selectAll("rect")
