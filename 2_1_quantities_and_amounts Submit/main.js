@@ -41,9 +41,4 @@ myData = [
 
   .attr("fill", d => colorScale(d.activity))
   .attr("opacity",.60)
-  
-const squirrelActivities = squirrelData.map((d) => d.activity);
-  const color = d3
-    .scaleOrdinal()
-    .domain(squirrelActivities)
-    .range(d3.schemeCategory10);
+  .attr("fill", "#4169e1")
