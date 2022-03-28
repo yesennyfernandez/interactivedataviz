@@ -7,12 +7,10 @@ radius = 3
 
 //DATA
 
-d3.json("https://github.com/yesennyfernandez/interactivedataviz/blob/09056aafe8934cde9cba642e48a451ad380c522f/dv-complaint-radio-run-2021%20(Int_Data_Viz).json", d3.autoType)
-.then(data => {
+d3.json("https://github.com/yesennyfernandez/interactivedataviz/blob/09056aafe8934cde9cba642e48a451ad380c522f/dv-complaint-radio-run-2021%20(Int_Data_Viz).json", d3.autoType).then(data => {
 console.log(data)
 
 // SCALES
-
 const xScale = d3.scaleLinear()
 .domain([0, d3.max(data, d => d.DomesticViolencePercent)])
 .range([margin.left, width - margin.right])
