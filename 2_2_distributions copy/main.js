@@ -5,7 +5,7 @@ margin = {top: 20, bottom: 35, left: 30, right: 10};
 
 
 /* LOAD DATA */
-d3.json("../data/environmentRatings.json", d3.autoType)
+d3.json("dv-complaint-radio-run-2021 (Int_Data_Viz).CSV", d3.autoType)
 .then(data => {
  console.log(data)
 
@@ -16,11 +16,11 @@ d3.json("../data/environmentRatings.json", d3.autoType)
    .range([margin.left, width-margin.right])
 
  const yScale = d3.scaleLinear()
-   .domain([0,d3.max(data, d => d.ideologyScore2020)])
+   .domain([0,d3.max(data, d => d.ideologyDV)])
    .range([height-margin.bottom,margin.top])
 
  const colorScale = d3.scaleOrdinal()
-   .domain(["R","D","I"])
+   .domain(["Rape Complaints", "Felony Assault Complaints", "Murder Complaints"])
    .range(["red","blue","purple"])
 
  /* ELEMENTS */
@@ -53,8 +53,8 @@ d3.json("../data/environmentRatings.json", d3.autoType)
         enter => enter
           .append("circle")
           .attr("r", 1)
-          .attr("cx", d => xScale(d.envScore2020))
-          .attr("cy", d => yScale(d.ideologyScore2020))
+          .attr("cx", d => xScale(d.envDV))
+          .attr("cy", d => yScale(d.ideologyDV))
           .attr("fill", "black")
             .transition()
             .duration(4000) // in ms

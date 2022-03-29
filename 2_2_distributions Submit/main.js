@@ -12,7 +12,7 @@ console.log(data)
 
 // SCALES
 const xScale = d3.scaleLinear()
-.domain([0, d3.max(data, d => d.DomesticViolencePercent)])
+.domain([0, d3.max(data, d => d.DVPercent)])
 .range([margin.left, width - margin.right])
 
 const yScale = d3.scaleLinear()
@@ -47,10 +47,8 @@ mySVG.selectAll("circle")
 .data(data)
 .join("circle")
 // ATTRIBUTES
-.attr("cx", d => xScale(d.DomesticViolencePercent))
+.attr("cx", d => xScale(d.DVPercent))
 .attr("cy", d => yScale(d.Rating))
 .attr("r", radius)
 .attr("fill", d => colorScale(d.Location))
-
-
 });
