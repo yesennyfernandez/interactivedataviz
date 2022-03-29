@@ -1,704 +1,505 @@
-﻿Country,Year,Admission
-Afghanistan,2019,"302,662"
-Afghanistan,2018,"277,660"
-Afghanistan,2017,"235,000"
-Afghanistan,2016,"206,051"
-Afghanistan,2015,"160,160"
-Afghanistan,2014,"100,149"
-Afghanistan,2013,"72,269"
-Albania,2019,
-Albania,2018,
-Albania,2017,
-Albania,2016,
-Algeria,2019,0
-Algeria,2018,0
-Algeria,2016,
-Algeria,2013,"30,000"
-Angola,2019,"71,359"
-Angola,2018,"164,115"
-Angola,2017,"39,510"
-Angola,2016,"19,759"
-Angola,2015,"10,750"
-Angola,2014,"36,021"
-Angola,2013,"70,881"
-Argentina,2017,
-Argentina,2016,0
-Armenia,2019,
-Armenia,2018,0
-Armenia,2017,
-Armenia,2016,
-Armenia,2015,
-Armenia,2014,
-Azerbaijan,2019,
-Azerbaijan,2018,
-Azerbaijan,2017,
-Azerbaijan,2016,0
-Bangladesh,2019,"6,997"
-Bangladesh,2018,"40,952"
-Bangladesh,2017,"2,037"
-Bangladesh,2016,"4,662"
-Bangladesh,2015,"6,875"
-Bangladesh,2014,"3,788"
-Bangladesh,2013,"6,083"
-Barbados,2017,
-Benin,2019,"27,560"
-Benin,2018,"22,720"
-Benin,2017,"17,066"
-Benin,2016,"13,363"
-Benin,2015,"5,307"
-Benin,2014,"3,517"
-Benin,2013,"5,125"
-Bhutan,2019,
-Bhutan,2018,
-Bhutan,2017,
-Bhutan,2016,0
-Bhutan,2015,
-Bhutan,2014,
-Bolivia,2019,"5,030"
-Bolivia,2018,
-Bolivia,2017,
-Bolivia,2016,"4,202"
-Bolivia,2015,
-Bolivia,2014,
-Bolivia,2013,
-Bosnia and Herzegovina,2019,
-Bosnia and Herzegovina,2018,
-Bosnia and Herzegovina,2017,
-Bosnia and Herzegovina,2016,
-Bosnia and Herzegovina,2013,
-Botswana,2019,"5,790"
-Botswana,2018,0
-Botswana,2017,
-Botswana,2016,0
-Botswana,2015,
-Botswana,2014,159
-Brazil,2019,0
-Brazil,2018,
-Brazil,2016,
-Burkina Faso,2019,"103,844"
-Burkina Faso,2018,"94,630"
-Burkina Faso,2017,"90,970"
-Burkina Faso,2016,"102,849"
-Burkina Faso,2015,"122,571"
-Burkina Faso,2014,"107,892"
-Burkina Faso,2013,"102,444"
-Burundi,2019,"60,832"
-Burundi,2018,"56,430"
-Burundi,2017,"58,827"
-Burundi,2016,"47,372"
-Burundi,2015,"36,442"
-Burundi,2014,"32,957"
-Burundi,2013,"25,092"
-Cambodia,2019,"5,082"
-Cambodia,2018,"4,725"
-Cambodia,2017,"5,576"
-Cambodia,2016,"5,775"
-Cambodia,2015,"4,292"
-Cambodia,2014,"2,334"
-Cambodia,2013,"1,520"
-Cameroon,2019,"80,945"
-Cameroon,2018,"78,670"
-Cameroon,2017,"70,774"
-Cameroon,2016,"62,150"
-Cameroon,2015,"66,501"
-Cameroon,2014,"64,003"
-Cameroon,2013,"56,049"
-Cape Verde,2019,
-Cape Verde,2018,
-Central African Republic,2019,
-Central African Republic,2019,"30,465"
-Central African Republic,2018,"32,232"
-Central African Republic,2017,"26,222"
-Central African Republic,2016,"25,458"
-Central African Republic,2015,"26,156"
-Central African Republic,2014,"26,076"
-Central African Republic,2013,"14,705"
-Chad,2019,"368,545"
-Chad,2018,"266,201"
-Chad,2017,"211,975"
-Chad,2016,"170,916"
-Chad,2015,"102,904"
-Chad,2014,"145,873"
-Chad,2013,"145,000"
-China,2019,0
-China,2018,0
-China,2017,
-China,2016,
-Colombia,2019,"4,478"
-Colombia,2018,0
-Colombia,2017,
-Colombia,2016,406
-Colombia,2015,
-Colombia,2013,
-Comoros,2019,"2,007"
-Comoros,2018,"1,649"
-Comoros,2017,"1,565"
-Comoros,2016,777
-Comoros,2015,"4,200"
-Comoros,2014,"4,394"
-Congo (DRC),2019,"654,492"
-Congo (DRC),2019,
-Congo (DRC),2018,"365,068"
-Congo (DRC),2017,"236,167"
-Congo (DRC),2016,"312,527"
-Congo (DRC),2015,"364,398"
-Congo (DRC),2014,"247,442"
-Congo (DRC),2013,"214,601"
-Cook Islands,2019,0
-Cook Islands,2018,
-Costa Rica,2019,
-Costa Rica,2018,
-Costa Rica,2017,
-Cote d'Ivoire,2019,"13,069"
-Cote d'Ivoire,2018,"9,023"
-Cote d'Ivoire,2017,"13,494"
-Cote d'Ivoire,2016,"13,993"
-Cote d'Ivoire,2015,"4,734"
-Cote d'Ivoire,2014,
-Cote d'Ivoire,2013,"6,450"
-Croatia,2019,
-Croatia,2018,
-Croatia,2017,
-Croatia,2016,
-Cuba,2019,0
-Cuba,2018,
-Cuba,2017,
-Cuba,2016,
-Cuba,2015,
-Cuba,2014,
-Cuba,2013,
-Djibouti,2019,0
-Djibouti,2018,0
-Djibouti,2017,"3,350"
-Djibouti,2016,"4,230"
-Djibouti,2015,"6,030"
-Djibouti,2014,"5,903"
-Djibouti,2013,"8,350"
-Dominican Republic,2016,
-Ecuador,2019,0
-Ecuador,2018,0
-Ecuador,2017,"1,928"
-Ecuador,2016,"6,857"
-Egypt,2019,
-Egypt,2018,
-Egypt,2017,
-Egypt,2016,
-El Salvador,2019,0
-El Salvador,2018,454
-El Salvador,2017,484
-El Salvador,2016,0
-El Salvador,2015,
-El Salvador,2014,
-El Salvador,2013,
-Equatorial Guinea,2019,"3,485"
-Equatorial Guinea,2018,658
-Equatorial Guinea,2017,
-Equatorial Guinea,2016,
-Equatorial Guinea,2015,
-Equatorial Guinea,2013,
-Eritrea,2019,"16,769"
-Eritrea,2018,"15,569"
-Eritrea,2017,"17,016"
-Eritrea,2016,"18,269"
-Eritrea,2015,"12,677"
-Eritrea,2014,"14,196"
-Eritrea,2013,"14,025"
-Eswatini,2019,576
-Eswatini,2018,337
-Eswatini,2017,512
-Eswatini,2016,360
-Ethiopia,2019,"377,638"
-Ethiopia,2018,"332,132"
-Ethiopia,2017,"344,666"
-Ethiopia,2016,"320,883"
-Ethiopia,2015,"351,972"
-Ethiopia,2014,"264,926"
-Ethiopia,2013,"267,226"
-Federated States of Micronesia,2019,
-Fiji,2019,67
-Fiji,2018,89
-Fiji,2017,79
-Fiji,2016,124
-Fiji,2015,68
-Gabon,2019,0
-Gabon,2018,0
-Gabon,2017,
-Gabon,2016,0
-Gabon,2015,
-Gabon,2013,
-Gambia,2019,"2,834"
-Gambia,2018,"3,552"
-Gambia,2017,"5,881"
-Gambia,2016,"6,250"
-Gambia,2015,"6,790"
-Gambia,2014,"4,492"
-Gambia,2013,"3,850"
-Georgia,2019,
-Georgia,2018,
-Georgia,2017,
-Ghana,2019,"6,174"
-Ghana,2018,0
-Ghana,2017,"13,312"
-Ghana,2016,"15,507"
-Ghana,2015,
-Ghana,2014,"7,182"
-Ghana,2013,"5,206"
-Guatemala,2019,"3,807"
-Guatemala,2018,"3,195"
-Guatemala,2017,"3,284"
-Guatemala,2016,"3,589"
-Guatemala,2015,"4,464"
-Guatemala,2014,"3,000"
-Guatemala,2013,"3,000"
-Guinea,2019,"37,733"
-Guinea,2018,"7,705"
-Guinea,2017,"30,136"
-Guinea,2016,"47,268"
-Guinea,2015,"37,033"
-Guinea,2014,"38,224"
-Guinea,2013,"29,987"
-Guinea Bissau,2019,"1,419"
-Guinea Bissau,2018,"1,373"
-Guinea Bissau,2017,"1,685"
-Guinea Bissau,2016,0
-Guinea Bissau,2015,645
-Guinea Bissau,2014,"1,271"
-Guinea Bissau,2013,
-Guyana,2019,
-Guyana,2018,
-Guyana,2017,
-Guyana,2015,
-Guyana,2014,
-Guyana,2013,
-Haiti,2019,"14,596"
-Haiti,2018,"15,229"
-Haiti,2017,"14,520"
-Haiti,2016,"12,200"
-Haiti,2015,"19,041"
-Haiti,2014,"20,003"
-Haiti,2013,"16,906"
-Honduras,2019,0
-Honduras,2018,0
-Honduras,2017,
-India,2019,"270,182"
-India,2018,"251,416"
-India,2017,"212,682"
-India,2016,"176,676"
-India,2015,
-India,2014,"138,216"
-India,2013,"106,863"
-Indonesia,2019,"129,286"
-Indonesia,2018,"20,794"
-Indonesia,2017,"20,152"
-Indonesia,2016,0
-Indonesia,2015,111
-Indonesia,2014,
-Indonesia,2013,
-Iran (Islamic Republic of),2019,0
-Iran (Islamic Republic of),2018,
-Iran (Islamic Republic of),2016,0
-Iraq,2019,"9,964"
-Iraq,2018,"9,964"
-Iraq,2017,
-Iraq,2016,"4,901"
-Iraq,2014,"6,597"
-Iraq,2013,"15,818"
-Jamaica,2019,
-Jamaica,2017,
-Jamaica,2016,0
-Jamaica,2015,
-Jamaica,2014,
-Jordan,2019,101
-Jordan,2018,134
-Jordan,2017,
-Jordan,2016,
-Jordan,2015,
-Kazakhstan,2019,
-Kazakhstan,2018,
-Kazakhstan,2017,
-Kazakhstan,2016,
-Kazakhstan,2013,
-Kenya,2019,"87,622"
-Kenya,2018,"72,651"
-Kenya,2017,"80,030"
-Kenya,2016,"58,273"
-Kenya,2015,"45,997"
-Kenya,2014,"44,150"
-Kenya,2013,"37,257"
-Kiribati,2019,0
-Kiribati,2018,
-Kiribati,2017,100
-Kiribati,2016,
-"Korea, Democratic People's Republic of",2019,"92,330"
-"Korea, Democratic People's Republic of",2018,"54,133"
-"Korea, Democratic People's Republic of",2017,
-"Korea, Democratic People's Republic of",2016,"56,000"
-"Korea, Democratic People's Republic of",2015,"63,176"
-"Korea, Democratic People's Republic of",2014,"16,000"
-"Korea, Democratic People's Republic of",2013,"18,000"
-Kosovo,2019,
-Kosovo,2018,
-Kosovo,2017,
-Kosovo,2016,
-Kyrgyzstan,2019,6
-Kyrgyzstan,2018,85
-Kyrgyzstan,2017,
-Kyrgyzstan,2016,"3,000"
-Kyrgyzstan,2015,
-Lao People's Democratic Republic,2019,0
-Lao People's Democratic Republic,2018,"4,614"
-Lao People's Democratic Republic,2017,
-Lao People's Democratic Republic,2016,
-Lao People's Democratic Republic,2015,"3,491"
-Lao People's Democratic Republic,2014,181
-Lebanon,2019,386
-Lebanon,2018,244
-Lebanon,2017,363
-Lebanon,2016,699
-Lebanon,2015,"1,100"
-Lebanon,2014,"1,426"
-Lesotho,2019,"2,665"
-Lesotho,2018,"2,446"
-Lesotho,2017,"1,750"
-Lesotho,2016,"4,402"
-Lesotho,2015,"1,950"
-Lesotho,2014,"3,071"
-Liberia,2019,"27,650"
-Liberia,2018,"21,052"
-Liberia,2017,"18,319"
-Liberia,2016,"19,849"
-Liberia,2015,"13,159"
-Liberia,2014,"9,366"
-Liberia,2013,"8,056"
-Madagascar,2019,"30,715"
-Madagascar,2018,"23,456"
-Madagascar,2017,"22,992"
-Madagascar,2016,"23,601"
-Madagascar,2015,"15,691"
-Madagascar,2014,"7,173"
-Madagascar,2013,"8,305"
-Malawi,2019,"38,610"
-Malawi,2018,"45,085"
-Malawi,2017,"47,447"
-Malawi,2016,"53,054"
-Malawi,2015,"34,521"
-Malawi,2014,"34,075"
-Malawi,2013,"31,086"
-Maldives,2019,0
-Maldives,2018,0
-Maldives,2017,
-Maldives,2016,
-Maldives,2014,
-Mali,2019,"144,191"
-Mali,2018,"156,090"
-Mali,2017,"120,510"
-Mali,2016,"145,395"
-Mali,2015,"142,177"
-Mali,2014,"146,185"
-Mali,2013,"105,596"
-Mauritania,2019,"27,512"
-Mauritania,2018,"24,521"
-Mauritania,2017,"18,385"
-Mauritania,2016,"18,093"
-Mauritania,2015,"20,623"
-Mauritania,2014,"20,096"
-Mauritania,2013,"16,286"
-Mexico,2019,0
-Mexico,2018,0
-Mexico,2017,
-Mexico,2016,"40,756"
-Mexico,2014,
-Mexico,2013,
-Moldova,2019,
-Moldova,2018,
-Moldova,2017,
-Moldova,2016,
-Moldova,2015,
-Moldova,2013,
-Mongolia,2019,137
-Mongolia,2018,57
-Mongolia,2017,
-Mongolia,2016,0
-Mongolia,2015,
-Mongolia,2014,
-Mongolia,2013,
-Morocco,2019,
-Morocco,2018,
-Morocco,2017,
-Morocco,2016,
-Morocco,2013,
-Mozambique,2019,"31,177"
-Mozambique,2018,"39,546"
-Mozambique,2017,"42,253"
-Mozambique,2016,"22,807"
-Mozambique,2014,"21,602"
-Mozambique,2013,"16,319"
-Myanmar,2019,"90,380"
-Myanmar,2018,"61,617"
-Myanmar,2017,"9,156"
-Myanmar,2016,"12,291"
-Myanmar,2015,"13,853"
-Myanmar,2014,"8,687"
-Myanmar,2013,"11,000"
-Namibia,2019,"3,798"
-Namibia,2018,"3,758"
-Namibia,2017,"9,112"
-Namibia,2016,"2,850"
-Namibia,2015,
-Namibia,2014,"3,028"
-Namibia,2013,"1,773"
-Nauru,2019,0
-Nepal,2019,"11,369"
-Nepal,2018,"18,942"
-Nepal,2017,"18,804"
-Nepal,2016,"22,585"
-Nepal,2015,"4,232"
-Nepal,2014,"25,626"
-Nepal,2013,"6,097"
-Nicaragua,2019,"29,429"
-Nicaragua,2018,
-Nicaragua,2017,"12,483"
-Nicaragua,2016,"11,007"
-Nicaragua,2015,
-Nicaragua,2014,
-Nicaragua,2013,
-Niger,2019,"414,239"
-Niger,2018,"381,692"
-Niger,2017,"363,682"
-Niger,2016,"395,986"
-Niger,2015,"357,463"
-Niger,2014,"364,837"
-Niger,2013,"406,327"
-Nigeria,2019,"430,433"
-Nigeria,2018,"706,395"
-Nigeria,2017,"672,317"
-Nigeria,2016,"479,927"
-Nigeria,2015,"397,221"
-Nigeria,2014,"320,247"
-Nigeria,2013,"236,100"
-Niue,2019,0
-Niue,2018,
-North Macedonia,2019,
-North Macedonia,2018,
-North Macedonia,2017,
-North Macedonia,2016,
-Oman,2019,0
-Oman,2018,0
-Oman,2017,
-Oman,2016,
-Pakistan,2019,"284,234"
-Pakistan,2018,"255,990"
-Pakistan,2017,"68,036"
-Pakistan,2016,"55,357"
-Pakistan,2015,"270,809"
-Pakistan,2014,"144,580"
-Pakistan,2013,"125,000"
-Palau,2019,
-Panama,2019,0
-Panama,2018,
-Panama,2013,
-Papua New Guinea,2019,0
-Papua New Guinea,2018,"5,414"
-Papua New Guinea,2017,"4,906"
-Papua New Guinea,2016,"5,000"
-Papua New Guinea,2015,"2,861"
-Papua New Guinea,2013,
-Paraguay,2019,"4,369"
-Paraguay,2018,0
-Paraguay,2017,
-Peru,2019,
-Peru,2018,
-Peru,2017,
-Peru,2016,
-Philippines,2019,625
-Philippines,2018,998
-Philippines,2017,292
-Philippines,2016,668
-Philippines,2015,"1,033"
-Philippines,2014,0
-Philippines,2013,"1,083"
-Republic of the Congo,2019,
-Republic of the Congo,2019,"11,311"
-Republic of the Congo,2018,"4,990"
-Republic of the Congo,2017,945
-Republic of the Congo,2016,120
-Republic of the Congo,2015,662
-Republic of the Congo,2014,239
-Republic of the Marshall islands,2019,0
-Republic of the Marshall islands,2018,12
-Rwanda,2019,"12,707"
-Rwanda,2018,"8,335"
-Rwanda,2017,"7,781"
-Rwanda,2016,"13,401"
-Rwanda,2015,
-Rwanda,2014,"6,304"
-Rwanda,2013,"7,747"
-Samoa,2019,0
-Sao Tome and Principe,2019,62
-Sao Tome and Principe,2018,120
-Sao Tome and Principe,2017,
-Sao Tome and Principe,2016,0
-Sao Tome and Principe,2015,
-Senegal,2019,"27,895"
-Senegal,2018,"27,700"
-Senegal,2017,"41,114"
-Senegal,2016,"44,081"
-Senegal,2015,"39,147"
-Senegal,2014,"32,325"
-Serbia,2015,
-Serbia,2014,0
-Sierra Leone,2019,"34,127"
-Sierra Leone,2018,"33,715"
-Sierra Leone,2017,"42,115"
-Sierra Leone,2016,"35,387"
-Sierra Leone,2015,"29,300"
-Sierra Leone,2014,"28,729"
-Sierra Leone,2013,"32,000"
-Solomon islands,2019,596
-Solomon islands,2018,288
-Solomon islands,2017,285
-Solomon islands,2016,306
-Somalia,2019,"258,122"
-Somalia,2018,"234,166"
-Somalia,2017,"271,717"
-Somalia,2016,"143,442"
-Somalia,2015,"121,584"
-Somalia,2014,"158,863"
-Somalia,2013,"214,049"
-South Africa,2019,"11,118"
-South Africa,2018,"11,311"
-South Africa,2017,"11,799"
-South Africa,2016,"15,336"
-South Sudan,2019,
-South Sudan,2019,"237,123"
-South Sudan,2018,"206,673"
-South Sudan,2017,"210,689"
-South Sudan,2016,"218,405"
-South Sudan,2015,"148,863"
-South Sudan,2014,"94,254"
-South Sudan,2013,"76,114"
-Sri Lanka,2019,"10,014"
-Sri Lanka,2018,0
-Sri Lanka,2017,
-Sri Lanka,2016,0
-Sri Lanka,2015,
-Sri Lanka,2014,
-Sri Lanka,2013,"24,000"
-State of Palestine,2019,0
-State of Palestine,2018,0
-State of Palestine,2017,
-State of Palestine,2016,0
-State of Palestine,2014,
-Sudan,2019,"261,954"
-Sudan,2018,"244,106"
-Sudan,2017,"228,159"
-Sudan,2016,"224,517"
-Sudan,2015,"167,178"
-Sudan,2014,"132,503"
-Sudan,2013,"122,919"
-Suriname,2019,
-Suriname,2018,
-Suriname,2017,
-Suriname,2013,
-Syrian Arab Republic,2019,"6,103"
-Syrian Arab Republic,2018,"3,846"
-Syrian Arab Republic,2017,"8,690"
-Syrian Arab Republic,2016,"4,297"
-Syrian Arab Republic,2015,"1,892"
-Syrian Arab Republic,2013,"13,778"
-Tajikistan,2019,"3,500"
-Tajikistan,2018,"3,295"
-Tajikistan,2017,"2,144"
-Tajikistan,2016,"5,584"
-Tajikistan,2015,122
-Tajikistan,2014,400
-Tajikistan,2013,
-Tanzania,2019,
-Tanzania,2019,"24,259"
-Tanzania,2018,"16,313"
-Tanzania,2017,"13,239"
-Tanzania,2016,"10,689"
-Tanzania,2015,"4,009"
-Tanzania,2014,"3,925"
-Tanzania,2013,"2,000"
-Thailand,2019,
-Thailand,2018,
-Thailand,2017,
-Thailand,2016,
-Timor-Leste,2019,"1,106"
-Timor-Leste,2018,"1,784"
-Timor-Leste,2017,"1,427"
-Timor-Leste,2016,"1,484"
-Timor-Leste,2015,"4,123"
-Timor-Leste,2014,"3,870"
-Timor-Leste,2013,675
-Togo,2019,"6,796"
-Togo,2018,"6,725"
-Togo,2017,"8,073"
-Togo,2016,"8,189"
-Togo,2015,"7,667"
-Togo,2014,"6,402"
-Togo,2013,"6,604"
-Tokelau,2019,
-Tonga,2019,0
-Tunisia,2017,
-Tunisia,2016,0
-Tunisia,2015,
-Turkmenistan,2019,0
-Turkmenistan,2018,
-Turkmenistan,2017,
-Turkmenistan,2016,
-Tuvalu,2019,0
-Uganda,2019,"86,456"
-Uganda,2018,"65,571"
-Uganda,2017,"32,592"
-Uganda,2016,"47,857"
-Uganda,2015,"35,000"
-Uganda,2014,"86,892"
-Ukraine,2019,
-Ukraine,2018,0
-Ukraine,2017,
-Ukraine,2016,
-Uruguay,2019,
-Uruguay,2018,
-Uruguay,2017,
-Uruguay,2016,
-Uzbekistan,2019,
-Uzbekistan,2018,
-Uzbekistan,2017,
-Uzbekistan,2016,
-Uzbekistan,2013,
-Vanuatu,2019,
-Vanuatu,2018,0
-Vanuatu,2017,
-Vanuatu,2015,96
-Venezuela (Bolivarian Republic of),2019,"2,973"
-Venezuela (Bolivarian Republic of),2018,"16,862"
-Venezuela (Bolivarian Republic of),2016,0
-Venezuela (Bolivarian Republic of),2015,
-Vietnam,2019,174
-Vietnam,2018,0
-Vietnam,2017,
-Vietnam,2016,"7,460"
-Vietnam,2015,830
-Vietnam,2014,"8,022"
-Vietnam,2013,"1,399"
-Yemen,2019,"339,546"
-Yemen,2018,"345,604"
-Yemen,2017,"263,313"
-Yemen,2016,"264,878"
-Yemen,2015,"197,390"
-Yemen,2014,"164,286"
-Yemen,2013,"140,000"
-Zambia,2019,"7,762"
-Zambia,2018,"10,549"
-Zambia,2017,"12,133"
-Zambia,2016,"10,351"
-Zambia,2015,"11,266"
-Zimbabwe,2019,"21,964"
-Zimbabwe,2018,"22,922"
-Zimbabwe,2017,"25,374"
-Zimbabwe,2016,"22,618"
-Zimbabwe,2015,"20,958"
-Zimbabwe,2014,"26,839"
-Zimbabwe,2013,"18,390"
+﻿Country,Year,Admission,,
+Afghanistan,2019,302662,,
+Afghanistan,2018,277660,,
+Afghanistan,2017,235000,,
+Afghanistan,2016,206051,,
+Afghanistan,2015,160160,,
+Afghanistan,2014,100149,,
+Afghanistan,2013,72269,,
+Algeria,2019,0,,
+Algeria,2018,0,,
+Algeria,2013,30000,,
+Angola,2019,71359,,
+Angola,2018,164115,,
+Angola,2017,39510,,
+Angola,2016,19759,,
+Angola,2015,10750,,
+Angola,2014,36021,,
+Angola,2013,70881,,
+Argentina,2016,0,,
+Armenia,2018,0,,
+Azerbaijan,2016,0,,
+Bangladesh,2019,6997,,
+Bangladesh,2018,40952,,
+Bangladesh,2017,2037,,
+Bangladesh,2016,4662,,
+Bangladesh,2015,6875,,
+Bangladesh,2014,3788,,
+Bangladesh,2013,6083,,
+Benin,2019,27560,,
+Benin,2018,22720,,
+Benin,2017,17066,,
+Benin,2016,13363,,
+Benin,2015,5307,,
+Benin,2014,3517,,
+Benin,2013,5125,,
+Bhutan,2016,0,,
+Bolivia,2019,5030,,
+Bolivia,2016,4202,,
+Botswana,2019,5790,,
+Botswana,2018,0,,
+Botswana,2016,0,,
+Botswana,2014,159,,
+Brazil,2019,0,,
+Burkina Faso,2019,103844,,
+Burkina Faso,2018,94630,,
+Burkina Faso,2017,90970,,
+Burkina Faso,2016,102849,,
+Burkina Faso,2015,122571,,
+Burkina Faso,2014,107892,,
+Burkina Faso,2013,102444,,
+Burundi,2019,60832,,
+Burundi,2018,56430,,
+Burundi,2017,58827,,
+Burundi,2016,47372,,
+Burundi,2015,36442,,
+Burundi,2014,32957,,
+Burundi,2013,25092,,
+Cambodia,2019,5082,,
+Cambodia,2018,4725,,
+Cambodia,2017,5576,,
+Cambodia,2016,5775,,
+Cambodia,2015,4292,,
+Cambodia,2014,2334,,
+Cambodia,2013,1520,,
+Cameroon,2019,80945,,
+Cameroon,2018,78670,,
+Cameroon,2017,70774,,
+Cameroon,2016,62150,,
+Cameroon,2015,66501,,
+Cameroon,2014,64003,,
+Cameroon,2013,56049,,
+Central African Republic,2019,30465,,
+Central African Republic,2018,32232,,
+Central African Republic,2017,26222,,
+Central African Republic,2016,25458,,
+Central African Republic,2015,26156,,
+Central African Republic,2014,26076,,
+Central African Republic,2013,14705,,
+Chad,2019,368545,,
+Chad,2018,266201,,
+Chad,2017,211975,,
+Chad,2016,170916,,
+Chad,2015,102904,,
+Chad,2014,145873,,
+Chad,2013,145000,,
+China,2019,0,,
+China,2018,0,,
+Colombia,2019,4478,,
+Colombia,2018,0,,
+Colombia,2016,406,,
+Comoros,2019,2007,,
+Comoros,2018,1649,,
+Comoros,2017,1565,,
+Comoros,2016,777,,
+Comoros,2015,4200,,
+Comoros,2014,4394,,
+Congo (DRC),2019,654492,,
+Congo (DRC),2018,365068,,
+Congo (DRC),2017,236167,,
+Congo (DRC),2016,312527,,
+Congo (DRC),2015,364398,,
+Congo (DRC),2014,247442,,
+Congo (DRC),2013,214601,,
+Cook Islands,2019,0,,
+Cote d'Ivoire,2019,13069,,
+Cote d'Ivoire,2018,9023,,
+Cote d'Ivoire,2017,13494,,
+Cote d'Ivoire,2016,13993,,
+Cote d'Ivoire,2015,4734,,
+Cote d'Ivoire,2013,6450,,
+Cuba,2019,0,,
+Djibouti,2019,0,,
+Djibouti,2018,0,,
+Djibouti,2017,3350,,
+Djibouti,2016,4230,,
+Djibouti,2015,6030,,
+Djibouti,2014,5903,,
+Djibouti,2013,8350,,
+Ecuador,2019,0,,
+Ecuador,2018,0,,
+Ecuador,2017,1928,,
+Ecuador,2016,6857,,
+El Salvador,2019,0,,
+El Salvador,2018,454,,
+El Salvador,2017,484,,
+El Salvador,2016,0,,
+Equatorial Guinea,2019,3485,,
+Equatorial Guinea,2018,658,,
+Eritrea,2019,16769,,
+Eritrea,2018,15569,,
+Eritrea,2017,17016,,
+Eritrea,2016,18269,,
+Eritrea,2015,12677,,
+Eritrea,2014,14196,,
+Eritrea,2013,14025,,
+Eswatini,2019,576,,
+Eswatini,2018,337,,
+Eswatini,2017,512,,
+Eswatini,2016,360,,
+Ethiopia,2019,377638,,
+Ethiopia,2018,332132,,
+Ethiopia,2017,344666,,
+Ethiopia,2016,320883,,
+Ethiopia,2015,351972,,
+Ethiopia,2014,264926,,
+Ethiopia,2013,267226,,
+Fiji,2019,67,,
+Fiji,2018,89,,
+Fiji,2017,79,,
+Fiji,2016,124,,
+Fiji,2015,68,,
+Gabon,2019,0,,
+Gabon,2018,0,,
+Gabon,2016,0,,
+Gambia,2019,2834,,
+Gambia,2018,3552,,
+Gambia,2017,5881,,
+Gambia,2016,6250,,
+Gambia,2015,6790,,
+Gambia,2014,4492,,
+Gambia,2013,3850,,
+Ghana,2019,6174,,
+Ghana,2018,0,,
+Ghana,2017,13312,,
+Ghana,2016,15507,,
+Ghana,2014,7182,,
+Ghana,2013,5206,,
+Guatemala,2019,3807,,
+Guatemala,2018,3195,,
+Guatemala,2017,3284,,
+Guatemala,2016,3589,,
+Guatemala,2015,4464,,
+Guatemala,2014,3000,,
+Guatemala,2013,3000,,
+Guinea,2019,37733,,
+Guinea,2018,7705,,
+Guinea,2017,30136,,
+Guinea,2016,47268,,
+Guinea,2015,37033,,
+Guinea,2014,38224,,
+Guinea,2013,29987,,
+Guinea Bissau,2019,1419,,
+Guinea Bissau,2018,1373,,
+Guinea Bissau,2017,1685,,
+Guinea Bissau,2016,0,,
+Guinea Bissau,2015,645,,
+Guinea Bissau,2014,1271,,
+Haiti,2019,14596,,
+Haiti,2018,15229,,
+Haiti,2017,14520,,
+Haiti,2016,12200,,
+Haiti,2015,19041,,
+Haiti,2014,20003,,
+Haiti,2013,16906,,
+Honduras,2019,0,,
+Honduras,2018,0,,
+India,2019,270182,,
+India,2018,251416,,
+India,2017,212682,,
+India,2016,176676,,
+India,2014,138216,,
+India,2013,106863,,
+Indonesia,2019,129286,,
+Indonesia,2018,20794,,
+Indonesia,2017,20152,,
+Indonesia,2016,0,,
+Indonesia,2015,111,,
+Iran (Islamic Republic of),2019,0,,
+Iran (Islamic Republic of),2016,0,,
+Iraq,2019,9964,,
+Iraq,2018,9964,,
+Iraq,2016,4901,,
+Iraq,2014,6597,,
+Iraq,2013,15818,,
+Jamaica,2016,0,,
+Jordan,2019,101,,
+Jordan,2018,134,,
+Kenya,2019,87622,,
+Kenya,2018,72651,,
+Kenya,2017,80030,,
+Kenya,2016,58273,,
+Kenya,2015,45997,,
+Kenya,2014,44150,,
+Kenya,2013,37257,,
+Kiribati,2019,0,,
+Kiribati,2017,100,,
+Korea Democratic People's Republic of,2019,92330,,
+Korea Democratic People's Republic of,2018,54133,,
+Korea Democratic People's Republic of,2016,56000,,
+Korea Democratic People's Republic of,2015,63176,,
+Korea Democratic People's Republic of,2014,16000,,
+Korea Democratic People's Republic of,2013,18000,,
+Kyrgyzstan,2019,6,,
+Kyrgyzstan,2018,85,,
+Kyrgyzstan,2016,3000,,
+Lao People's Democratic Republic,2019,0,,
+Lao People's Democratic Republic,2018,4614,,
+Lao People's Democratic Republic,2015,3491,,
+Lao People's Democratic Republic,2014,181,,
+Lebanon,2019,386,,
+Lebanon,2018,244,,
+Lebanon,2017,363,,
+Lebanon,2016,699,,
+Lebanon,2015,1100,,
+Lebanon,2014,1426,,
+Lesotho,2019,2665,,
+Lesotho,2018,2446,,
+Lesotho,2017,1750,,
+Lesotho,2016,4402,,
+Lesotho,2015,1950,,
+Lesotho,2014,3071,,
+Liberia,2019,27650,,
+Liberia,2018,21052,,
+Liberia,2017,18319,,
+Liberia,2016,19849,,
+Liberia,2015,13159,,
+Liberia,2014,9366,,
+Liberia,2013,8056,,
+Madagascar,2019,30715,,
+Madagascar,2018,23456,,
+Madagascar,2017,22992,,
+Madagascar,2016,23601,,
+Madagascar,2015,15691,,
+Madagascar,2014,7173,,
+Madagascar,2013,8305,,
+Malawi,2019,38610,,
+Malawi,2018,45085,,
+Malawi,2017,47447,,
+Malawi,2016,53054,,
+Malawi,2015,34521,,
+Malawi,2014,34075,,
+Malawi,2013,31086,,
+Maldives,2019,0,,
+Maldives,2018,0,,
+Mali,2019,144191,,
+Mali,2018,156090,,
+Mali,2017,120510,,
+Mali,2016,145395,,
+Mali,2015,142177,,
+Mali,2014,146185,,
+Mali,2013,105596,,
+Mauritania,2019,27512,,
+Mauritania,2018,24521,,
+Mauritania,2017,18385,,
+Mauritania,2016,18093,,
+Mauritania,2015,20623,,
+Mauritania,2014,20096,,
+Mauritania,2013,16286,,
+Mexico,2019,0,,
+Mexico,2018,0,,
+Mexico,2016,40756,,
+Mongolia,2019,137,,
+Mongolia,2018,57,,
+Mongolia,2016,0,,
+Mozambique,2019,31177,,
+Mozambique,2018,39546,,
+Mozambique,2017,42253,,
+Mozambique,2016,22807,,
+Mozambique,2014,21602,,
+Mozambique,2013,16319,,
+Myanmar,2019,90380,,
+Myanmar,2018,61617,,
+Myanmar,2017,9156,,
+Myanmar,2016,12291,,
+Myanmar,2015,13853,,
+Myanmar,2014,8687,,
+Myanmar,2013,11000,,
+Namibia,2019,3798,,
+Namibia,2018,3758,,
+Namibia,2017,9112,,
+Namibia,2016,2850,,
+Namibia,2014,3028,,
+Namibia,2013,1773,,
+Nauru,2019,0,,
+Nepal,2019,11369,,
+Nepal,2018,18942,,
+Nepal,2017,18804,,
+Nepal,2016,22585,,
+Nepal,2015,4232,,
+Nepal,2014,25626,,
+Nepal,2013,6097,,
+Nicaragua,2019,29429,,
+Nicaragua,2017,12483,,
+Nicaragua,2016,11007,,
+Niger,2019,414239,,
+Niger,2018,381692,,
+Niger,2017,363682,,
+Niger,2016,395986,,
+Niger,2015,357463,,
+Niger,2014,364837,,
+Niger,2013,406327,,
+Nigeria,2019,430433,,
+Nigeria,2018,706395,,
+Nigeria,2017,672317,,
+Nigeria,2016,479927,,
+Nigeria,2015,397221,,
+Nigeria,2014,320247,,
+Nigeria,2013,236100,,
+Niue,2019,0,,
+Oman,2019,0,,
+Oman,2018,0,,
+Pakistan,2019,284234,,
+Pakistan,2018,255990,,
+Pakistan,2017,68036,,
+Pakistan,2016,55357,,
+Pakistan,2015,270809,,
+Pakistan,2014,144580,,
+Pakistan,2013,125000,,
+Panama,2019,0,,
+Papua New Guinea,2019,0,,
+Papua New Guinea,2018,5414,,
+Papua New Guinea,2017,4906,,
+Papua New Guinea,2016,5000,,
+Papua New Guinea,2015,2861,,
+Paraguay,2019,4369,,
+Paraguay,2018,0,,
+Philippines,2019,625,,
+Philippines,2018,998,,
+Philippines,2017,292,,
+Philippines,2016,668,,
+Philippines,2015,1033,,
+Philippines,2014,0,,
+Philippines,2013,1083,,
+Republic of the Congo,2019,11311,,
+Republic of the Congo,2018,4990,,
+Republic of the Congo,2017,945,,
+Republic of the Congo,2016,120,,
+Republic of the Congo,2015,662,,
+Republic of the Congo,2014,239,,
+Republic of the Marshall islands,2019,0,,
+Republic of the Marshall islands,2018,12,,
+Rwanda,2019,12707,,
+Rwanda,2018,8335,,
+Rwanda,2017,7781,,
+Rwanda,2016,13401,,
+Rwanda,2014,6304,,
+Rwanda,2013,7747,,
+Samoa,2019,0,,
+Sao Tome and Principe,2019,62,,
+Sao Tome and Principe,2018,120,,
+Sao Tome and Principe,2016,0,,
+Senegal,2019,27895,,
+Senegal,2018,27700,,
+Senegal,2017,41114,,
+Senegal,2016,44081,,
+Senegal,2015,39147,,
+Senegal,2014,32325,,
+Serbia,2014,0,,
+Sierra Leone,2019,34127,,
+Sierra Leone,2018,33715,,
+Sierra Leone,2017,42115,,
+Sierra Leone,2016,35387,,
+Sierra Leone,2015,29300,,
+Sierra Leone,2014,28729,,
+Sierra Leone,2013,32000,,
+Solomon islands,2019,596,,
+Solomon islands,2018,288,,
+Solomon islands,2017,285,,
+Solomon islands,2016,306,,
+Somalia,2019,258122,,
+Somalia,2018,234166,,
+Somalia,2017,271717,,
+Somalia,2016,143442,,
+Somalia,2015,121584,,
+Somalia,2014,158863,,
+Somalia,2013,214049,,
+South Africa,2019,11118,,
+South Africa,2018,11311,,
+South Africa,2017,11799,,
+South Africa,2016,15336,,
+South Sudan,2019,237123,,
+South Sudan,2018,206673,,
+South Sudan,2017,210689,,
+South Sudan,2016,218405,,
+South Sudan,2015,148863,,
+South Sudan,2014,94254,,
+South Sudan,2013,76114,,
+Sri Lanka,2019,10014,,
+Sri Lanka,2018,0,,
+Sri Lanka,2016,0,,
+Sri Lanka,2013,24000,,
+State of Palestine,2019,0,,
+State of Palestine,2018,0,,
+State of Palestine,2016,0,,
+Sudan,2019,261954,,
+Sudan,2018,244106,,
+Sudan,2017,228159,,
+Sudan,2016,224517,,
+Sudan,2015,167178,,
+Sudan,2014,132503,,
+Sudan,2013,122919,,
+Syrian Arab Republic,2019,6103,,
+Syrian Arab Republic,2018,3846,,
+Syrian Arab Republic,2017,8690,,
+Syrian Arab Republic,2016,4297,,
+Syrian Arab Republic,2015,1892,,
+Syrian Arab Republic,2013,13778,,
+Tajikistan,2019,3500,,
+Tajikistan,2018,3295,,
+Tajikistan,2017,2144,,
+Tajikistan,2016,5584,,
+Tajikistan,2015,122,,
+Tajikistan,2014,400,,
+Tanzania,2019,24259,,
+Tanzania,2018,16313,,
+Tanzania,2017,13239,,
+Tanzania,2016,10689,,
+Tanzania,2015,4009,,
+Tanzania,2014,3925,,
+Tanzania,2013,2000,,
+Timor Leste,2019,1106,,
+Timor Leste,2018,1784,,
+Timor Leste,2017,1427,,
+Timor Leste,2016,1484,,
+Timor Leste,2015,4123,,
+Timor Leste,2014,3870,,
+Timor Leste,2013,675,,
+Togo,2019,6796,,
+Togo,2018,6725,,
+Togo,2017,8073,,
+Togo,2016,8189,,
+Togo,2015,7667,,
+Togo,2014,6402,,
+Togo,2013,6604,,
+Tonga,2019,0,,
+Tunisia,2016,0,,
+Turkmenistan,2019,0,,
+Tuvalu,2019,0,,
+Uganda,2019,86456,,
+Uganda,2018,65571,,
+Uganda,2017,32592,,
+Uganda,2016,47857,,
+Uganda,2015,35000,,
+Uganda,2014,86892,,
+Ukraine,2018,0,,
+Vanuatu,2018,0,,
+Vanuatu,2015,96,,
+Venezuela (Bolivarian Republic of),2019,2973,,
+Venezuela (Bolivarian Republic of),2018,16862,,
+Venezuela (Bolivarian Republic of),2016,0,,
+Vietnam,2019,174,,
+Vietnam,2018,0,,
+Vietnam,2016,7460,,
+Vietnam,2015,830,,
+Vietnam,2014,8022,,
+Vietnam,2013,1399,,
+Yemen,2019,339546,,
+Yemen,2018,345604,,
+Yemen,2017,263313,,
+Yemen,2016,264878,,
+Yemen,2015,197390,,
+Yemen,2014,164286,,
+Yemen,2013,140000,,
+Zambia,2019,7762,,
+Zambia,2018,10549,,
+Zambia,2017,12133,,
+Zambia,2016,10351,,
+Zambia,2015,11266,,
+Zimbabwe,2019,21964,,
+Zimbabwe,2018,22922,,
+Zimbabwe,2017,25374,,
+Zimbabwe,2016,22618,,
+Zimbabwe,2015,20958,,
+Zimbabwe,2014,26839,,
+Zimbabwe,2013,18390,,
