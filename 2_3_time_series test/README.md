@@ -1,12 +1,13 @@
-# Section 2 | Tutorial 2 | Distributions
+# Section 2 | Tutorial 3 | Time Series
 
 The goals for this tutorial are:
 
 - to reinforce the basic mechanics of how d3 allows you to [select](https://github.com/d3/d3-selection) HTML/SVG elements and map them to data elements.
 - to reinforce [HTML svg](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg) coordinate system.
 - to reinforce how [d3-scales](https://github.com/d3/d3-scale) can map abstract data elements to visual variables.
-- to learn the tools to make your own scatter plot.
-- to add axes to an svg using [d3-axis](https://github.com/d3/d3-axis).
+- to reinforce how to add axes to an svg using [d3-axis](https://github.com/d3/d3-axis).
+- introduce [d3 line](https://github.com/d3/d3-shape#lines) generators, and solidify how a function generator works differently than the appending and manipulating elements we've done so far.
+- to learn the tools to make your own line chart.
 
 ## Setup + Serve:
 
@@ -17,19 +18,19 @@ As you're building, don't forget you can always reference the [class code branch
 
 ## Assignment:
 
-- [ ] Implement your own scatter plot with a *different dataset* than the one used in our demo.
-- [ ] Size the dots by something data related. This requires creating a new scale. Carefully consider the domain and range of this new scale, and do your best to make the domain of the scale *dynamic* (i.e. would the scale still work if the data changed?). 
+- [ ] Implement your own line chart _with a different dataset_ than the one used in our demo. Your data should only create one line (given then next requirement). 
+- [ ] Turn this line chart into an [area chart](https://github.com/d3/d3-shape#areas). **Tip**: Think first about how that would be drawn on the screen. What are you creating on the svg? This requires referencing the d3 documention to understand the similarities and differences between the area function generator and the line function generator.
 - [ ] Make intentional design decisions -- colors, sizes, axes, etc. should illustrate something interesting about or relevant to your data.
 
 **BONUS:**
 
-- [ ] Add a label to each dot using the same method in which we appended them. **HINT:** you can either append one group that is positioned that includes both the circle and the label, or you can append all circles, then all labels.
-- [ ] Play with your understanding of the SVG coordinate system by using `transform: translate(x, y)` to position your dots instead of `cx` and `cy`. Can you think of any benefits of this method?
+- [ ] Turn this single area chart into a [stacked area chart](https://observablehq.com/@d3/stacked-area-chart). How does this change what actually needs to be drawn?
 
 ## Deploy + Submit
 
 Once you've completed the assignment, use the Github workflow to deploy your work to **your fork** of the course repository. Post the following as a comment to the appropriate post on the [commons site](https://data73200fall2021.commons.gc.cuny.edu/):
 1. a link to your committed code repository (your link will look something like: `https://github.com/[YOUR_USERNAME]/Interactive-Data-Vis-Fall2021/[TUTORIAL_PATH]/`)
 2. a link to your deployed example (your link will look something like: `https://[YOUR_USERNAME].github.io/Interactive-Data-Vis-Fall2021/[TUTORIAL_PATH]/`)
+
 
 
