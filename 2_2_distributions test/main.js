@@ -5,12 +5,10 @@ margin = {top: 20, bottom: 35, left: 30, right: 10};
 
 
 /* LOAD DATA */
-d3.csv("'../data/dv-complaint-radio-run-2021 (Int_Data_Viz).CSV",  d => {
-  return {
-
+d3.csv("../data/dv-complaint-radiorun-2021.CSV", d3.autoType )
 //d => d3.autoType)
-//.then(data => {
-// console.log(data)
+.then(data => {
+console.log(data)
 
  /* SCALES */
 
