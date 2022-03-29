@@ -1,7 +1,7 @@
 /* CONSTANTS AND GLOBALS */
-const width = window.innerWidth * 0.8,  
- height = window.innerHeight * 0.8,
- margin = {top:20, bottom:20, left:30, right:60}; 
+const width = window.innerWidth * .7,
+  height = window.innerHeight * .7,
+  margin = 30;
 
 /* LOAD DATA */
 d3.csv('../data/SAM Admission.csv', d => {
