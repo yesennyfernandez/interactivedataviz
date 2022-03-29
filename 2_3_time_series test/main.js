@@ -16,11 +16,11 @@ d3.csv('../data/SAM_Admission.csv', d => {
   // SCALES
 
   const xScale = d3.scaleTime()
-    .domain(d3.extent(data, d=> d.Year))
+    .domain(d3.extent(data, d=> d.year))
     .range([margin, width-margin])
 
   const yScale = d3.scaleLinear()
-    .domain(d3.extent(data, d=> d.Admission))
+    .domain(d3.extent(data, d=> d.admission))
     .range([height-margin, margin])
 
   // CREATE SVG ELEMENT
@@ -59,8 +59,8 @@ d3.csv('../data/SAM_Admission.csv', d => {
 
   // LINE GENERATOR FUNCTION
   const lineGen = d3.line()
-    .x(d => xScale(d.Year))
-    .y(d => yScale(d.Admission))
+    .x(d => xScale(d.year))
+    .y(d => yScale(d.admission))
 
   // DRAW LINE
   svg.selectAll("path.line")
