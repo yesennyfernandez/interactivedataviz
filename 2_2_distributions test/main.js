@@ -5,7 +5,7 @@ margin = {top: 20, bottom: 35, left: 30, right: 10};
 
 
 /* LOAD DATA */
-d3.json("dv-complaint-radio-run-2021 (Int_Data_Viz).CSV", d3.autoType)
+d3.json("'../data/dv-complaint-radio-run-2021 (Int_Data_Viz).CSV", d3.autoType)
 .then(data => {
  console.log(data)
 

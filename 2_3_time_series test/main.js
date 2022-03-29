@@ -4,7 +4,7 @@ const width = window.innerWidth * .7,
   margin = 30;
 
 /* LOAD DATA */
-d3.csv('../data/populationOverTime.csv', d => {
+d3.csv('../data/SAM Admission.csv', d => {
   return {
     year: new Date(+d.Year, 0, 1),
     country: d.Entity,
@@ -31,7 +31,6 @@ d3.csv('../data/populationOverTime.csv', d => {
     .attr("height", height)
 
   // BUILD AND CALL AXES
-  // axes added in 2nd class session and updated after class
 
   const xAxis = d3.axisBottom(xScale)
   const yAxis = d3.axisLeft(yScale)
