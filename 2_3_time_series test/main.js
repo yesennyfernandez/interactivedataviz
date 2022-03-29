@@ -6,9 +6,9 @@ const width = window.innerWidth * .7,
 /* LOAD DATA */
 d3.csv('../data/SAM_Admission.csv', d => {
   return {
-    Year: new Date(+d.Year, 0, 1),
+    year: new Date(+d.Year, 0, 1),
     //country: d.Entity,
-    Admission: +d.Admission
+    admission: +d.Admission
   }
 }).then(data => {
   console.log('data :>> ', data);
