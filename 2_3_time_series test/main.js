@@ -44,17 +44,17 @@ d3.csv('../data/SAM Admission.csv', d => {
   .attr("transform", `translate(${margin}, ${0})`)
       .call(yAxis)
 
-  // sample code for axes
-const xAxis = d3.axisBottom(xScale)
-  const yAxis = d3.axisLeft(yScale)
+//   // sample code for axes
+// const xAxis = d3.axisBottom(xScale)
+//   const yAxis = d3.axisLeft(yScale)
  
-  svg.append("g")
-    .attr("transform", `translate(0,${height-margin.bottom})`)
-    .call(xAxis)
+//   svg.append("g")
+//     .attr("transform", `translate(0,${height-margin.bottom})`)
+//     .call(xAxis)
  
-  svg.append("g")
-    .attr("transform", `translate(${margin.left},0)`)
-    .call(yAxis)
+//   svg.append("g")
+//     .attr("transform", `translate(${margin.left},0)`)
+//     .call(yAxis)
 
 
   // LINE GENERATOR FUNCTION
