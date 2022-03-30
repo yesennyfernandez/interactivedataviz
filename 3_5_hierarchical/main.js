@@ -47,7 +47,12 @@ const treeLayout = d3.treemap()
 .paddingInner(2)
 
 const tree = treeLayout(root)
+const leaves = tree.leaves() //that "leaves" in tree.leaves is a function that actually goes there.
 
+const leafGroups = svg
+selectAll("g")
+      .data(leaves)
+      .join("g")
 
   draw(); // calls the draw function
 }
