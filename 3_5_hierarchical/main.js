@@ -36,7 +36,7 @@ svg= container
 .attr("height", height)
 
 const root = d3.hierarchy(state.data)
-.asum(d => d.value)
+.sum(d => d.value)
 .sort((a,b) => b.value - a.value);
 console.log(root)
 
@@ -44,6 +44,10 @@ const treeLayout = d3.treemap()
 .size([
   width - margin.left - margin.right,
   height - margin.top - margin.bottom])
+.paddingInner(2)
+
+const tree = treeLayout(root)
+
 
   draw(); // calls the draw function
 }
