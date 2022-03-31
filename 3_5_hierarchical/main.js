@@ -78,7 +78,7 @@ state.hover = {
     })
     draw();
 
-.on("mouseleave", () =>{
+console("mouseleave", () =>{
   state.hover = null
   draw(); // calls the draw function
   console.log(state.hover)
