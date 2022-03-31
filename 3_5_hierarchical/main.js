@@ -70,7 +70,7 @@ const leafGroups = svg
       .attr("height", d => d.y1 - d.y0)
 
       leafGroups
-      .console("mouseenter", (event, d) => {
+      console.on("mouseenter", (event, d) => {
 state.hover = {
   position: [d.x0, d.y0],
   name: d.data.name
@@ -78,7 +78,7 @@ state.hover = {
     draw()
     console.log(state.hover)
       })
-      .on("mouseleave", () =>{
+      console.on("mouseleave", () =>{
   state.hover = null
   draw();
   console.log(state.hover)
