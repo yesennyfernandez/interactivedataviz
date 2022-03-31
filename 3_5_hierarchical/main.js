@@ -11,6 +11,7 @@ margin = {top: 20, bottom: 35, left: 30, right: 10};
 
 let state = {
   data:null
+  hover:null
 };
 
 /**
@@ -34,6 +35,13 @@ svg= container
 .append("svg")
 .attr("width", width)
 .attr("height", height)
+
+tooltip = container.append("div")
+.attr("class", "tooltip")
+.style("top",0)
+.style("left",0)
+.style("color", "white")
+.style("position", "absolute");
 
 const root = d3.hierarchy(state.data)
 .sum(d => d.value)
@@ -61,14 +69,32 @@ const leafGroups = svg
       .attr("width", d => d.x1 - d.x0)
       .attr("height", d => d.y1 - d.y0)
 
+      leafGroups
+      .console("mouseenter", (event, d) => {
+state.hover = {
+  position: [d.x0, d.y0],
+  name: d.data.name
+      }
+    })
+    draw();
 
+.on("mouseleave", () =>{
+  state.hover = null
   draw(); // calls the draw function
-}
+  console.log(state.hover)
+})
 
 /**
 * DRAW FUNCTION
 * we call this every time there is an update to the data/state
 * */
 function draw() {
-  
+  if (state.hover){
+    tooltip
+    .html(`<div>${state.hover.name}</div>`)
+    .transition()
+    .duration(700)
+    style("opacity", 0.9)
+    .style("transform",`translate(${state.hover.position [0]}px${state.hover.position[1]}px)`)
+  }
 }
