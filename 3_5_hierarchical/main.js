@@ -59,7 +59,7 @@ const leafGroups = svg
       .attr("fill", "purple")
       .attr("stroke", "gray")
       .attr("width", d => d.x1 - d.x0)
-      .attr("height", d => d.y1 - d.y1)
+      .attr("height", d => d.y1 - d.y0)
 
 
   draw(); // calls the draw function
