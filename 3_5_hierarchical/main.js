@@ -75,15 +75,16 @@ state.hover = {
   position: [d.x0, d.y0],
   name: d.data.name
       }
-    })
+    //})
     draw();
-
-console("mouseleave", () =>{
+    console.log(state.hover)
+      })
+      .on("mouseleave", () =>{
   state.hover = null
-  draw(); // calls the draw function
+  draw();
   console.log(state.hover)
 })
-
+draw(); // calls the draw function
 /**
 * DRAW FUNCTION
 * we call this every time there is an update to the data/state
