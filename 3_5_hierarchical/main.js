@@ -53,7 +53,10 @@ const leafGroups = svg
 .selectAll("g")
       .data(leaves)
       .join("g")
-      .attr("transform", d => '')
+      .attr("transform", d => `translate(${d.x0}, ${d.y0})`)
+
+      leafGroups.append("rect")
+      .attr("fill", "purple")
 
   draw(); // calls the draw function
 }
