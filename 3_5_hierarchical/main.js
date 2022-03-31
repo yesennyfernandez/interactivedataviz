@@ -10,8 +10,8 @@ margin = {top: 20, bottom: 35, left: 30, right: 10};
 * */
 
 let state = {
-  data:null
-  hover:null
+  data: null,
+  hover: null
 };
 
 /**
@@ -95,6 +95,6 @@ function draw() {
     .transition()
     .duration(700)
     style("opacity", 0.9)
-    .style("transform",`translate(${state.hover.position [0]}px${state.hover.position[1]}px)`)
+    .style("transform",`translate(${state.hover.position [0]}px,${state.hover.position[1]}px)`)
   }
 }
