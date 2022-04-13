@@ -1,7 +1,7 @@
-let clicks = document.getElementById("clicks");
+let clicks = document.getElementById("Number");
 
 let i=0;
 function counter() {
     i+=1;
-    clicks.innerHTML = "Number of clicks: " + i;
+    clicks.innerHTML = "Number: " + i;
 }
