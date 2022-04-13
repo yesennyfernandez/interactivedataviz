@@ -55,7 +55,7 @@ let state = {
 // note 2 important changes since old recipe
 // 1 - data is being sent to state.data to be its starting value
 // 2 - this code triggers launch of the init() INITIALIZING FUNCTION after .then
-d3.json("../data/environmentRatings.json", d3.autoType).then(
+d3.json("../data/TypesofCrimes.json", d3.autoType).then(
   raw_data => {
     console.log("data", raw_data);
     state.data = raw_data;
