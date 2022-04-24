@@ -10,7 +10,7 @@ let yScale;
 let colorScale;
 
 
-let Precinct = {
+let  = {
   data: [],
   selectedPrecinct: "All"
 };
@@ -46,7 +46,7 @@ function init() {
     const dropdown = d3.select("#dropdown")
 
     dropdown.selectAll("option")
-      .data(["All","Rape Complaints","Murder Complaints"])
+      .data(["All","RapeComplaints","MurderComplaints"])
       .join("option")
       .attr("value", d => d)
       .text(d=>d)
@@ -89,12 +89,12 @@ function init() {
       .attr("class", "dot") 
       .attr("r", radius)
       .attr("cx", 0)
-      .attr("cy", d => yScale(d.MurderComplaints))
+      .attr("cy", d => yScale(d.Precinct))
       .attr("fill", "black")
       .call(enter => enter
         .transition()
         .duration(1000)
-        .attr("cx", d => xScale(d.RapeComplaints))
+        .attr("cx", d => xScale(d.Total))
         .attr("fill", d => colorScale(d.Precinct)))
         ,
       update => update,
