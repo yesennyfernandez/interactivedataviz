@@ -22,7 +22,7 @@ d3.csv('../data/SAM_Admission.csv', d => {
   
   const formattedObj = {
     //country: d.Entity,
-    admission: +d.Admission,
+    Admission: +d.Admission,
     year: new Date(+d.Year, 01, 01) // (year, month, day)
   }
   return formattedObj
@@ -42,7 +42,7 @@ xScale = d3.scaleTime()
 .range([margin.left, width - margin.right])
 
 yScale = d3.scaleLinear()
-.domain(d3.extent(state.data, d=> d.admission)) // [min, max]
+.domain(d3.extent(state.data, d=> d.Admission)) // [min, max]
 .range([height-margin.bottom, margin.top])
 
 // AXES
@@ -72,7 +72,7 @@ svg.append("g")
 const dropdown = d3.select("#dropdown")
 
 dropdown.selectAll("options")
-.data(Array.from(new Set(state.data.map(d=> d.country))))
+.data(Array.from(new Set(state.data.map(d=> d.Country))))
 .join("option")
 .attr("value", d => d)
 .text(d=> d)
@@ -94,15 +94,15 @@ function draw() {
   console.log("state.selected",state.selection)
   // + FILTER DATA BASED ON STATE
   const filteredData = state.data
-  .filter(d=> state.selection === d.country)
+  .filter(d=> state.selection === d.Country)
 
   yScale
-  .domain(d3.extent(filteredData, d=> d.admission))
+  .domain(d3.extent(filteredData, d=> d.Admission))
 
   // + DRAW LINE AND/OR AREA
   const lineFunction = d3.line()
     .x(d=> xScale(d.year))
-    .y(d=> yScale(d.admission))
+    .y(d=> yScale(d.Admission))
 
   svg.selectAll("path.line")
     .data([filteredData])
