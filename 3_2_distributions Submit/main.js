@@ -42,9 +42,9 @@ let colorScale;
 // property 1 - data = stores current data for viz
 // property 2 - selectedParty = stores user selection
 // we have set up selectedParty to default to "All" at page load
-let state = {
+let Precinct = {
   data: [],
-  selectedParty: "All"
+  selectedPrecinct: "All"
 };
 
 /* LOAD DATA */
@@ -55,10 +55,10 @@ let state = {
 // note 2 important changes since old recipe
 // 1 - data is being sent to state.data to be its starting value
 // 2 - this code triggers launch of the init() INITIALIZING FUNCTION after .then
-d3.json("../data/TypesofCrimes.json", d3.autoType).then(
+d3.csv("../data/DV_Complaint_2021.csv", d3.autoType).then(
   raw_data => {
     console.log("data", raw_data);
-    state.data = raw_data;
+    Precinct.data = raw_data;
     init();
   }
 );
@@ -92,16 +92,16 @@ function init() {
   // define the yScale for our use via earlier LET variable
 
   xScale = d3.scaleLinear()
-    .domain(d3.extent(state.data, d => d.ideologyScore2020))
+    .domain(d3.extent(Precinct.data, d => d.ideologyScore2020))
     .range([margin.left, width-margin.right])
 
   yScale = d3.scaleLinear()
-    .domain(d3.extent(state.data, d => d.envScore2020))
+    .domain(d3.extent(Precinct.data, d => d.envScore2020))
     .range([height-margin.bottom,margin.top])
 
   colorScale = d3.scaleOrdinal()
-    .domain(["R","D"])
-    .range(["red", "blue"])
+    .domain(["Rape Complaints","Murder Complaints"])
+    .range(["teal", "purple"])
 
   
   // + AXES
@@ -130,7 +130,7 @@ function init() {
     const dropdown = d3.select("#dropdown")
 
     dropdown.selectAll("option")
-      .data(["All","R","D"])
+      .data(["All","Rape Complaints","Murder Complaints"])
       .join("option")
       .attr("value", d => d)
       .text(d=>d)
@@ -144,8 +144,8 @@ function init() {
     
     dropdown.on("change", event => {
       console.log(event.target.value)
-      state.selectedParty = event.target.value
-      console.log("new state", state)
+      Precinct.selectedPrecinct = event.target.value
+      console.log("new Precinct", Precinct)
   
       draw();
     })
@@ -194,8 +194,8 @@ function draw() {
   // returning only the matching data to draw with
   // filters based on whether records contain "R" or "D" or returns both if "All" is selected
 
-  const filteredData = state.data
-    .filter(d => state.selectedParty === d.Party || state.selectedParty === "All")
+  const filteredData = Precinct.data
+    .filter(d => Precinct.selectedPrecinct === d.Precinct || Precinct.selectedPrecinct === "All")
 
     console.log(filteredData)
   // console.log just to check our filter is working
