@@ -10,15 +10,15 @@ let yScale;
 let colorScale;
 
 
-let Precinct = {
+let state = {
   data: [],
-  selectedPrecinct: "All"
+  selectedstate: "All"
 };
 
 
 d3.csv("../data/DV_Complaint_2021.csv", d3.autoType).then(raw_data => {
     console.log("data", raw_data);
-    Precinct.data = raw_data;
+    state.data = raw_data;
     init();
   }
 );
@@ -27,11 +27,11 @@ function init() {
 
 
   xScale = d3.scaleLinear()
-    .domain(d3.extent(Precinct.data, d => d.RapeComplaints))
+    .domain(d3.extent(state.data, d => d.RapeComplaints))
     .range([margin.left, width-margin.right])
 
   yScale = d3.scaleLinear()
-    .domain(d3.extent(Precinct.data, d => d.MurderComplaints))
+    .domain(d3.extent(state.data, d => d.MurderComplaints))
     .range([height-margin.bottom,margin.top])
 
   colorScale = d3.scaleOrdinal()
@@ -54,8 +54,8 @@ function init() {
     
     dropdown.on("change", event => {
       console.log(event.target.value)
-      Precinct.selectedPrecinct = event.target.value
-      console.log("new Precinct", Precinct)
+      state.selectedstate = event.target.value
+      console.log("new Precinct", state)
   
       draw();
     })
