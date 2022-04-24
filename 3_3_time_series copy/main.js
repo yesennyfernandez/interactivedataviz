@@ -18,10 +18,10 @@ let state = {
 
 /* LOAD DATA */
 // + SET YOUR DATA PATH
-d3.csv('../data/populationOverTime.csv', (d)=> {
+d3.csv('..data/SAM_Admission.csv', (d)=> {
   const formattedObj = {
-    country: d.Entity,
-    population: +d.Population,
+    //country: d.Entity,
+    admission: +d.admission,
     year: new Date(+d.Year, 01, 01) // (year, month, day)
   }
   return formattedObj
@@ -41,7 +41,7 @@ xScale = d3.scaleTime()
 .range([margin.left, width - margin.right])
 
 yScale = d3.scaleLinear()
-.domain(d3.extent(state.data, d=> d.population)) // [min, max]
+.domain(d3.extent(state.data, d=> d.Admission)) // [min, max]
 .range([height-margin.bottom, margin.top])
 
 // AXES
@@ -96,12 +96,12 @@ function draw() {
   .filter(d=> state.selection === d.country)
 
   yScale
-  .domain(d3.extent(filteredData, d=> d.population))
+  .domain(d3.extent(filteredData, d=> d.admission))
 
   // + DRAW LINE AND/OR AREA
   const lineFunction = d3.line()
     .x(d=> xScale(d.year))
-    .y(d=> yScale(d.population))
+    .y(d=> yScale(d.admission))
 
   svg.selectAll("path.line")
     .data([filteredData])
