@@ -21,7 +21,6 @@ let state = {
 d3.csv('../data/SAM_Admission.csv', d => {
   
   const formattedObj = {
-    //country: d.Entity,
     Country: d.Country,
     Admission: +d.Admission,
     year: new Date(+d.Year, 01, 01) // (year, month, day)
