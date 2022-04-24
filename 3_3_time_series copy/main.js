@@ -18,10 +18,10 @@ let state = {
 
 /* LOAD DATA */
 // + SET YOUR DATA PATH
-d3.csv('..data/SAM_Admission.csv', (d)=> {
+d3.csv('..data/SAM_Admission.csv', d => {
   const formattedObj = {
     //country: d.Entity,
-    admission: +d.admission,
+    admission: +d.Admission,
     year: new Date(+d.Year, 01, 01) // (year, month, day)
   }
   return formattedObj
