@@ -94,8 +94,8 @@ function init() {
       .call(enter => enter
         .transition()
         .duration(1000)
-        .attr("cx", d => xScale(d.Total))
-        .attr("fill", d => colorScale(d.Precinct)))
+        .attr("cx", d => xScale(d.RapeComplaints))
+        .attr("fill", d => colorScale(d.MurderComplaints)))
         ,
       update => update,
       exit => exit
