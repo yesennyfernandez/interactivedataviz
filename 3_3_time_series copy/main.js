@@ -19,6 +19,7 @@ let state = {
 /* LOAD DATA */
 // + SET YOUR DATA PATH
 d3.csv('../data/SAM_Admission.csv', d => {
+  
   const formattedObj = {
     //country: d.Entity,
     admission: +d.Admission,
@@ -41,7 +42,7 @@ xScale = d3.scaleTime()
 .range([margin.left, width - margin.right])
 
 yScale = d3.scaleLinear()
-.domain(d3.extent(state.data, d=> d.Admission)) // [min, max]
+.domain(d3.extent(state.data, d=> d.admission)) // [min, max]
 .range([height-margin.bottom, margin.top])
 
 // AXES
